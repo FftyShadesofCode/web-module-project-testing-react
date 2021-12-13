@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Display from "./components/Display";
 
-import "./App.css";
+import "./styles.css";
 
 export default function App() {
   const displayFunc = (data)=> {
@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">Integration Testing Challenge</a>
+        <a className="navbar-brand" href="#"><img width="40px" src="./Lambda-Logo-Red.png"/> Lambda Integration Testing Challenge</a>
       </nav>
       <div className="App">
         <Display displayFun={displayFunc}/>
